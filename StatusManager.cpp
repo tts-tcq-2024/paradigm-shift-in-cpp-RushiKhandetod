@@ -26,7 +26,7 @@ std::string StatusManager::getMessage(const BatteryParameterInfo& status, Langua
     }
     return "No message found!";
 }
-
+ 
 void StatusManager::setOverallStatusMessage(Language language, const std::string& message) {
     overallStatusMessages[language] = message;
 }
